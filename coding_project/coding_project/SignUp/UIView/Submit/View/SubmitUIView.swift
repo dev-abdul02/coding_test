@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SubmitUIView: View {
 
-    @StateObject private var viewModel = SignUpViewModel()
+    @StateObject private var viewModel = SubmitViewModel()
     
     var body: some View {
         NavigationView() {

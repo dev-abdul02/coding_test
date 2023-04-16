@@ -168,7 +168,9 @@
 		96E156BB29EBC0FC00AF9DC9 /* Submit */ = {
 			isa = PBXGroup;
 			children = (
-				96E1569529EA581A00AF9DC9 /* SubmitUIView.swift */,
+				96E156CD29EBCDBE00AF9DC9 /* View */,
+				96E156A229EA584800AF9DC9 /* Model */,
+				96E156A429EA585100AF9DC9 /* ViewModel */,
 			);
 			path = Submit;
 			sourceTree = "<group>";
@@ -177,8 +179,6 @@
 			isa = PBXGroup;
 			children = (
 				96E156BD29EBC1FA00AF9DC9 /* View */,
-				96E156A229EA584800AF9DC9 /* Model */,
-				96E156A429EA585100AF9DC9 /* ViewModel */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -197,6 +197,14 @@
 				96E156C629EBC2B800AF9DC9 /* coding_projectTests.swift */,
 			);
 			path = coding_projectTests;
+			sourceTree = "<group>";
+		};
+		96E156CD29EBCDBE00AF9DC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96E1569529EA581A00AF9DC9 /* SubmitUIView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

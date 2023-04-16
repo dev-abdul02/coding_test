@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-class SignUpViewModel : ObservableObject {
+class SubmitViewModel : ObservableObject {
     
     @Published var user = UserModel(image: nil, fname: "", email: "", website: "", password: "")
     @Published var movetoSigninPage:Bool = false
